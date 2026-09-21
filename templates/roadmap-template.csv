@@ -1,3 +1,5 @@
-Initiative,Horizon,Priority,Owner,Dependency,KPI,Status
-Expand MFA,0-3 months,High,Identity Team,User inventory,MFA coverage %,Planned
-Implement CSPM,3-9 months,High,Cloud Team,Cloud tagging,Misconfigurations reduced,Planned
+﻿Initiative,Horizon,Priority,Owner,Dependency,KPI,Status
+Expand MFA,0-3 months,High,Identity Team,User inventory,MFA coverage percentage,Planned
+Implement CSPM,3-9 months,High,Cloud Security Team,Cloud tagging,Critical misconfigurations reduced,Planned
+Expand SIEM detections,3-9 months,High,SOC,Log onboarding,High-priority use cases deployed,Planned
+Formalize roadmap reviews,9-18 months,Medium,Security Strategy Team,Leadership sponsorship,Quarterly reviews completed,Planned

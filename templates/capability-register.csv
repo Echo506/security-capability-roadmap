@@ -1,4 +1,5 @@
-Domain,Capability,Owner,Current_State,Priority,Notes
-IAM,MFA coverage,Identity Team,Partial,High,
-Cloud Security,CSPM,Cloud Team,Limited,High,
-Detection,SIEM use cases,SOC,Developing,High,
+﻿Domain,Capability,Owner,Current_State,Priority,Notes
+IAM,MFA coverage,Identity Team,Partial,High,Not enforced for all users
+IAM,Privileged access governance,Identity Team,Limited,High,No formal PAM process
+Cloud Security,CSPM,Cloud Security Team,Limited,High,No centralized visibility
+Detection,SIEM use cases,SOC,Developing,High,Priority detections incomplete

@@ -1,11 +1,20 @@
-# Executive Brief
+﻿# Executive Brief
 
 ## Top Risks
-- Identity weaknesses
-- Inconsistent cloud governance
-- Limited cross-team operating model clarity
+
+- Identity weaknesses increase exposure to account compromise.
+- Cloud security visibility is insufficient for consistent risk reduction.
+- Detection and reporting maturity vary across teams and regions.
 
 ## Recommended Decisions
-- Fund priority IAM improvements.
-- Establish a cloud security baseline.
-- Formalize roadmap governance and metrics.
+
+- Prioritize IAM improvements as the first strategic control investment.
+- Approve cloud security baseline and CSPM implementation.
+- Formalize quarterly roadmap governance with KPI reporting.
+
+## Suggested KPIs
+
+- MFA coverage percentage
+- Number of critical cloud misconfigurations
+- Mean time to detect high-priority threats
+- Percentage of vulnerabilities remediated within SLA

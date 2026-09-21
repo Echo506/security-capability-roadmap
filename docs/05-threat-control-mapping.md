@@ -1,7 +1,7 @@
-# Threat to Control Mapping
+﻿# Threat to Control Mapping
 
 | Threat Scenario | ATT&CK Technique | Weakness | Recommended Capability |
 |---|---|---|---|
-| Phishing to account takeover | Valid Accounts | Weak MFA adoption | MFA + conditional access |
-| Ransomware | Command and Scripting Interpreter | Limited detection coverage | EDR + SIEM use cases |
-| Exposed storage | Cloud misconfiguration | No baseline visibility | CSPM + cloud guardrails |
+| Phishing leading to account takeover | Valid Accounts | Incomplete MFA coverage and inconsistent access reviews | MFA, conditional access, identity governance |
+| Ransomware through user execution and lateral movement | Command and Scripting Interpreter | Limited detection use cases and inconsistent endpoint coverage | EDR, SIEM use cases, response playbooks |
+| Exposed cloud storage or insecure cloud configuration | Misconfiguration-related cloud exposure | No centralized cloud security posture management | CSPM, cloud guardrails, secure configuration baseline |
