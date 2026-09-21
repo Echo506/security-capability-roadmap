@@ -1,0 +1,3 @@
+Capability,Score,Evidence,Risks,Target
+IAM,2,"MFA partial; reviews inconsistent",Account compromise,4
+Vulnerability Management,2,"Scanning exists; patching inconsistent",Exposure window,4

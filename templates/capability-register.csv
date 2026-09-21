@@ -1,0 +1,4 @@
+Domain,Capability,Owner,Current_State,Priority,Notes
+IAM,MFA coverage,Identity Team,Partial,High,
+Cloud Security,CSPM,Cloud Team,Limited,High,
+Detection,SIEM use cases,SOC,Developing,High,
