@@ -1,20 +1,38 @@
 ﻿# Executive Brief
 
-## Top Risks
+## Objective
 
-- Identity weaknesses increase exposure to account compromise.
-- Cloud security visibility is insufficient for consistent risk reduction.
-- Detection and reporting maturity vary across teams and regions.
+Support leadership decisions by prioritizing security capability investments that reduce measurable risk, improve visibility, and strengthen governance across identity, cloud, detection, response, and risk management functions.
 
-## Recommended Decisions
+## Current-State Summary
 
-- Prioritize IAM improvements as the first strategic control investment.
-- Approve cloud security baseline and CSPM implementation.
-- Formalize quarterly roadmap governance with KPI reporting.
+The current-state assessment shows that NovaCommerce Group has foundational security capabilities in place, but maturity is uneven across identity, cloud security, detection engineering, and evidence governance. The most significant risks are driven by incomplete MFA coverage, limited cloud posture visibility, fragmented ownership, and inconsistent KPI-driven reporting.
 
-## Suggested KPIs
+## Top Strategic Risks
+
+1. Identity weaknesses increase the likelihood of account compromise and excessive access.
+2. Cloud security visibility is insufficient for consistent governance and early detection of configuration risks.
+3. Detection and reporting maturity vary across teams, limiting consistent risk reduction and executive visibility.
+
+## Recommended Leadership Decisions
+
+- Prioritize IAM improvement as the first major strategic investment.
+- Approve a cloud security baseline and CSPM rollout for high-priority environments.
+- Establish quarterly roadmap governance reviews with named ownership and KPI tracking.
+- Standardize executive reporting for capability maturity, remediation progress, and measurable risk reduction.
+
+## Expected Outcomes
+
+- Higher MFA and privileged access governance coverage.
+- Better visibility into cloud configuration and control effectiveness.
+- Improved detection coverage for high-priority threat scenarios.
+- Stronger strategic follow-through through roadmap reviews and KPI ownership.
+
+## Decision Support Metrics
 
 - MFA coverage percentage
-- Number of critical cloud misconfigurations
-- Mean time to detect high-priority threats
-- Percentage of vulnerabilities remediated within SLA
+- Privileged accounts reviewed quarterly
+- Critical cloud misconfigurations
+- High-priority SIEM use cases deployed
+- Critical vulnerabilities remediated within SLA
+- Quarterly governance reviews completed
