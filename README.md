@@ -1,94 +1,99 @@
-# Security Capability Roadmap
+﻿# Security Capability Roadmap
 
-A portfolio repository that demonstrates how to assess security capabilities, identify gaps, define a target state, and build a practical roadmap aligned with business risk.
+A portfolio project that demonstrates how to assess enterprise security capabilities, identify gaps, define a target state, and build a practical roadmap aligned with business risk, cloud security priorities, and governance needs.
 
-## Purpose
+## Overview
 
-This project simulates the type of work expected in security strategy, enterprise security architecture governance, and GRC-adjacent roles. It is designed to show how security operations, risk, cloud, identity, and governance capabilities can be assessed and improved through structured analysis.
+This repository simulates the type of work performed in security strategy, enterprise security architecture governance, and GRC-aligned cybersecurity roles.
 
-## Objectives
+The project is designed to show how an analyst or strategist can:
 
-- Build a current-state security capability assessment.
-- Map findings to NIST CSF, ISO 27001, and MITRE ATT&CK.
-- Identify capability gaps, overlaps, dependencies, and ownership.
-- Produce a 12 to 18 month roadmap with priorities and measurable outcomes.
-- Present recommendations in a leadership-friendly format.
+- assess current-state security capabilities;
+- identify gaps, overlaps, and ownership issues;
+- align findings to NIST CSF, ISO 27001, and MITRE ATT&CK;
+- define target-state capability priorities; and
+- build a roadmap that leadership can understand and support.
 
-## Repository Structure
+## Why this project matters
 
-```text
-security-capability-roadmap/
-├── README.md
-├── docs/
-│   ├── 01-project-charter.md
-│   ├── 02-capability-map.md
-│   ├── 03-maturity-assessment.md
-│   ├── 04-gap-analysis.md
-│   ├── 05-threat-control-mapping.md
-│   ├── 06-target-state-architecture.md
-│   ├── 07-raci-operating-model.md
-│   ├── 08-roadmap.md
-│   └── 09-executive-brief.md
-├── templates/
-│   ├── capability-register.csv
-│   ├── maturity-scorecard.csv
-│   ├── roadmap-template.csv
-│   └── raci-template.csv
-└── assets/
-```
+Security teams are expected to do more than operate tools. They must translate risk, incidents, capability gaps, and control weaknesses into structured investment decisions, ownership models, and measurable improvements.
 
-## Suggested Scenario
+This portfolio project reflects that approach by focusing on security capability strategy rather than only technical implementation.
 
-Use a fictional multinational company with hybrid infrastructure, cloud adoption, identity challenges, third-party dependencies, and growing compliance expectations. This creates a realistic environment for roadmap planning.
+## Scope
 
-## Core Frameworks
+The working scenario covers a fictional multinational enterprise with:
 
-- NIST Cybersecurity Framework
-- ISO 27001
-- MITRE ATT&CK
-- Zero Trust principles
-- Cloud shared responsibility concepts
+- hybrid infrastructure;
+- AWS and Azure cloud adoption;
+- growing identity and access management requirements;
+- third-party dependencies;
+- audit and compliance pressure; and
+- the need for better reporting, ownership, and roadmap governance.
 
-## Recommended Capability Domains
+## Core deliverables
 
-- Identity and Access Management
-- Endpoint Security
-- Security Monitoring / SIEM
-- Incident Response
-- Vulnerability Management
-- Cloud Security
-- Data Protection
-- Application and API Security
-- Governance, Risk, and Compliance
-- Third-Party Risk Management
-- Security Awareness
-
-## Deliverables
-
-- Capability map
+- Security capability map
 - Maturity assessment
 - Gap analysis
 - Threat-to-control mapping
-- Target-state security model
-- Operating model and RACI
-- Prioritized roadmap
-- Executive briefing
+- Target-state capability model
+- RACI and operating model
+- 12 to 18 month roadmap
+- Executive brief for leadership audiences
 
-## Portfolio Value
+## Framework alignment
 
-This repository is useful for applications to roles such as:
+This project uses a structured approach based on:
+
+- **NIST CSF** for capability and control alignment
+- **ISO 27001** for governance and control structure
+- **MITRE ATT&CK** for threat-informed planning
+- **Zero Trust principles** for identity-centered security design
+- **Cloud shared responsibility concepts** for platform control design
+
+## Repository structure
+
+```text
+security-capability-roadmap/
+â”œâ”€â”€ README.md
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ 01-project-charter.md
+â”‚   â”œâ”€â”€ 02-capability-map.md
+â”‚   â”œâ”€â”€ 03-maturity-assessment.md
+â”‚   â”œâ”€â”€ 04-gap-analysis.md
+â”‚   â”œâ”€â”€ 05-threat-control-mapping.md
+â”‚   â”œâ”€â”€ 06-target-state-architecture.md
+â”‚   â”œâ”€â”€ 07-raci-operating-model.md
+â”‚   â”œâ”€â”€ 08-roadmap.md
+â”‚   â”œâ”€â”€ 09-executive-brief.md
+â”‚   â””â”€â”€ 10-security-capability-diagram.md
+â”œâ”€â”€ templates/
+â”œâ”€â”€ assets/
+â””â”€â”€ .gitignore
+```
+
+## Featured artifact
+
+The repository includes a Mermaid diagram that visualizes the relationship between governance, IAM, cloud security, detection, incident response, vulnerability management, and leadership reporting.
+
+See: [`docs/10-security-capability-diagram.md`](docs/10-security-capability-diagram.md)
+
+## Portfolio positioning
+
+This repository is intended to support applications for roles such as:
 
 - Security Strategy Analyst
-- GRC Analyst
 - Security Risk Analyst
+- GRC Analyst
 - Cybersecurity Program Analyst
 - Security Architecture Analyst
 - Cloud Security Analyst
 
-## Next Steps
+## Current status
 
-1. Define the fictional company profile in `docs/01-project-charter.md`.
-2. Build the capability inventory in `docs/02-capability-map.md`.
-3. Score maturity in `docs/03-maturity-assessment.md`.
-4. Turn gaps into actions in `docs/08-roadmap.md`.
-5. Summarize decisions in `docs/09-executive-brief.md`.
+**Status:** In development, with starter content complete and roadmap artifacts being refined.
+
+## Author
+
+Created as part of a cybersecurity portfolio focused on security strategy, cloud risk, operating models, and governance-aligned improvement.
