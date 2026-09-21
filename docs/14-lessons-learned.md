@@ -1,56 +1,26 @@
-\# Cloud Security Scope
+\# Lessons Learned
 
 
 
-\## Objective
+\## Key Takeaways
 
 
 
-Define the cloud security control areas that support the enterprise security roadmap across AWS, Azure, and GCP.
+\- Security strategy is stronger when capability decisions are tied to measurable risk reduction.
+
+\- IAM and cloud security create the highest leverage for early roadmap improvements.
+
+\- Roadmaps are more effective when each initiative has a named owner, dependency, KPI, and review cadence.
+
+\- Maturity assessments become more useful when they are linked to target-state capabilities and business priorities.
+
+\- Executive communication should focus on risks, decisions, ownership, and expected outcomes rather than only technical detail.
 
 
 
-\## Shared Cloud Risk Themes
+\## Portfolio Reflection
 
 
 
-\- Identity misconfiguration and excessive permissions
-
-\- Insecure storage exposure
-
-\- Weak logging and monitoring coverage
-
-\- Inconsistent network segmentation
-
-\- Unmanaged secrets and keys
-
-\- Limited guardrails for new deployments
-
-
-
-\## Control Focus Areas
-
-
-
-| Domain | AWS | Azure | GCP | Strategic Relevance |
-
-|---|---|---|---|---|
-
-| Identity and access | IAM, Organizations | Entra ID, RBAC | IAM | Reduces excessive privilege and account misuse |
-
-| Logging and monitoring | CloudTrail, CloudWatch | Monitor, Defender, Activity Logs | Cloud Logging, SCC | Improves visibility and threat detection |
-
-| Configuration posture | Config, Security Hub | Defender for Cloud, Policy | Security Command Center, Org Policy | Reduces misconfiguration risk |
-
-| Data protection | KMS, S3 controls | Key Vault, Storage controls | Cloud KMS, Storage controls | Protects sensitive data |
-
-| Network governance | VPC, Security Groups | VNets, NSGs | VPC firewall rules | Strengthens segmentation and exposure control |
-
-
-
-\## Roadmap Relevance
-
-
-
-Cloud capabilities should be governed consistently across platforms through baseline standards, control ownership, KPI tracking, and periodic architecture review.
+This project reinforced the importance of connecting governance, architecture, threat-informed planning, and operational execution into one coherent security capability model.
 
